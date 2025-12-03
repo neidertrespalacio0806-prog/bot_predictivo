@@ -36,6 +36,17 @@ LIGAS_UNIFICADAS = {
             "fouls_lost":  "https://www.fotmob.com/es/leagues/87/stats/season/27233/teams/fk_foul_lost_team/laliga-teams",
             "on_target":   "https://www.fotmob.com/es/leagues/87/stats/season/27233/teams/ontarget_scoring_att_team/laliga-teams",
             "corners":     "https://www.fotmob.com/es/leagues/87/stats/season/27233/teams/corner_taken_team/laliga-teams"
+        },
+        "La Liga 2": {
+            "clean_sheets": "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/clean_sheet_team/laliga2-teams",
+            "xg_for":      "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/expected_goals_team/laliga2-teams",
+            "xg_against":  "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/expected_goals_conceded_team/laliga2-teams",
+            "touches_opp": "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/touches_in_opp_box_team/laliga2-teams",
+            "yel_cards":   "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/total_yel_card_team/laliga2-teams",
+            "possession":  "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/possession_percentage_team/laliga2-teams",
+            "fouls_lost":  "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/fk_foul_lost_team/laliga2-teams",
+            "on_target":   "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/ontarget_scoring_att_team/laliga2-teams",
+            "corners":     "https://www.fotmob.com/es/leagues/140/stats/season/27234/teams/corner_taken_team/laliga2-teams"
         }
     },
     "Inglaterra": {
@@ -450,4 +461,5 @@ if __name__ == "__main__":
         main(pais, liga)  # ✅ modo automático
     else:
         main()  # ✅ modo manual
+
 
